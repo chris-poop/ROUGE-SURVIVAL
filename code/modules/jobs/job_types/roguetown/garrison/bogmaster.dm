@@ -3,8 +3,8 @@
 	flag = BOGMASTER
 	department_flag = GARRISON
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	allowed_patrons = ALL_DIVINE_PATRONS
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
@@ -25,7 +25,7 @@
 
 	spells = list(/obj/effect/proc_holder/spell/self/convertrole/bog)
 	outfit = /datum/outfit/job/roguetown/bogmaster
-	
+
 	give_bank_account = 35
 	min_pq = 4
 	max_pq = null

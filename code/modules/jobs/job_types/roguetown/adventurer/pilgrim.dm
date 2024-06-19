@@ -4,7 +4,7 @@
 	department_flag = PEASANTS
 	faction = "Station"
 	total_positions = -1
-	spawn_positions = 20
+	spawn_positions = -1
 	allowed_races = ALL_RACES_LIST_NAMES
 	tutorial = "Pilgrims begin far outside of the town and must reach it in order to ply their various trades. Sometimes, they build their own settlements and enjoy the terrible nature."
 

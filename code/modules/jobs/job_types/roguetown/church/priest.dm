@@ -4,12 +4,12 @@
 	flag = PRIEST
 	department_flag = CHURCHMEN
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	selection_color = JCOLOR_CHURCH
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-		"Humen", 
+		"Humen",
 		"Aasimar",
 	)
 	allowed_patrons = ALL_DIVINE_PATRONS
@@ -89,7 +89,7 @@
 			continue
 		if(!istype(HU.head, /obj/item/clothing/head/roguetown/crown/serpcrown))
 			continue
-		
+
 		//Abdicate previous King
 		for(var/mob/living/carbon/human/HL in GLOB.human_list)
 			if(HL.mind)

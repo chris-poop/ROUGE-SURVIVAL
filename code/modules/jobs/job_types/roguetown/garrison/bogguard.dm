@@ -3,8 +3,8 @@
 	flag = BOGGUARD
 	department_flag = GARRISON
 	faction = "Station"
-	total_positions = 10
-	spawn_positions = 10
+	total_positions = 0
+	spawn_positions = 0
 	selection_color = JCOLOR_SOLDIER
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
@@ -24,7 +24,7 @@
 	give_bank_account = 16
 	min_pq = 1
 	max_pq = null
-	
+
 	cmode_music = 'sound/music/combat_bog.ogg'
 
 	/// Chance to be spawned as a crossbowman instead

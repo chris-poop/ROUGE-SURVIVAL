@@ -3,8 +3,8 @@
 	flag = BAILIFF
 	department_flag = NOBLEMEN
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	allowed_sexes = list(MALE)
 	allowed_races = list("Humen")
 	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD)
@@ -121,7 +121,7 @@
 				INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(lord_outlaw_requested), src, lord, inputty)
 			else
 				make_outlaw(inputty)
-				
+
 /proc/find_lord(required_stat = CONSCIOUS)
 	var/mob/living/lord
 	for(var/mob/living/carbon/human/H in GLOB.human_list)

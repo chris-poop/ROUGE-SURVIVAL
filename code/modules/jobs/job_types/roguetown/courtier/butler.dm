@@ -3,8 +3,8 @@
 	flag = BUTLER
 	department_flag = COURTIERS
 	faction = "Station"
-	total_positions = 2
-	spawn_positions = 3
+	total_positions = 0
+	spawn_positions = 0
 
 	f_title = "Maid"
 	allowed_races = list(

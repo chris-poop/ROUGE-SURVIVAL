@@ -9,8 +9,8 @@
 	display_order = JDO_GRENZELHOFT
 	selection_color = JCOLOR_MERCENARY
 	faction = "Station"
-	total_positions = 5
-	spawn_positions = 5
+	total_positions = 0
+	spawn_positions = 0
 	min_pq = 2 //good fragger role
 	max_pq = null
 	cmode_music = 'sound/music/combat_grenzelhoft.ogg'

@@ -3,8 +3,8 @@
 	flag = BUTCHER
 	department_flag = PEASANTS
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 
 	allowed_races = list(
 		"Humen",
@@ -18,7 +18,7 @@
 		"Half Orc",
 	)
 	allowed_ages = ADULT_AGES_LIST
-	
+
 	tutorial = "Some say you're a strange individual, some say you're a cheat, while some claim you're a savant in the art of sausage making. Without your skilled hands and knifework, most of the livestock around the town would be wasted. "
 
 	outfit = /datum/outfit/job/roguetown/beastmaster

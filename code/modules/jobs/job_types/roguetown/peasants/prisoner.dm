@@ -4,7 +4,7 @@
 	department_flag = NOBLEMEN
 	faction = "Station"
 	total_positions = 0
-	spawn_positions = 1
+	spawn_positions = 0
 
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
@@ -59,4 +59,4 @@
 		shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt
 		armor = /obj/item/clothing/suit/roguetown/shirt/tunic/blue
 		head = /obj/item/clothing/head/roguetown/fancyhat
-		
+

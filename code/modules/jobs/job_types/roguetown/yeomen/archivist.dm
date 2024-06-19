@@ -4,8 +4,8 @@
 	flag = ARCHIVIST
 	department_flag = YEOMEN
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	spells = list(/obj/effect/proc_holder/spell/invoked/projectile/fetch)
 	allowed_races = list(
 		"Humen",
