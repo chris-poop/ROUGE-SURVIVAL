@@ -7,6 +7,7 @@
 // END_PREFERENCES
 // BEGIN_INCLUDE
 #include "_maps\_basemap.dm"
+#include "_maps\blackstone.dm"
 #include "_maps\templates\bog_shack_small.dm"
 #include "_maps\templates\sewers.dm"
 #include "_maps\templates\smalldungeons.dm"
@@ -2152,7 +2153,6 @@
 #include "code\modules\jobs\job_types\roguetown\adventurer\villager.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\_advclass.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\antag\bandit.dm"
-#include "code\modules\jobs\job_types\roguetown\adventurer\types\combat\donator\dwarfwarrior.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\special\crusader.dm"
 #include "code\modules\jobs\job_types\roguetown\church\confessor.dm"
 #include "code\modules\jobs\job_types\roguetown\church\druid.dm"
@@ -3389,6 +3389,7 @@
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
 #include "rougesurvivalfiles\rougeitems.dm"
+#include "rougesurvivalfiles\rougemapGenerators.dm"
 #include "rougesurvivalfiles\rougeplants.dm"
 #include "rougesurvivalfiles\rougebackgrounds\dancer.dm"
 #include "rougesurvivalfiles\rougebackgrounds\dreamseeker.dm"

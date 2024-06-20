@@ -452,7 +452,7 @@
 
 /obj/structure/flora/shroomstump
 	name = "shroom stump"
-	desc = "It was a very happy shroom. Not anymore."
+	desc = "It was a very happy shroom. And an Evil Soul Killed it."
 	icon_state = "mush1stump"
 	opacity = 0
 	max_integrity = 100
@@ -461,7 +461,7 @@
 	density = TRUE
 	icon = 'icons/roguetown/misc/foliagetall.dmi'
 	layer = TABLE_LAYER
-	blade_dulling = DULLING_PICK
+	blade_dulling = DULLING_CUT
 	static_debris = null
 	debris = null
 	alpha = 255

@@ -304,13 +304,13 @@ GLOBAL_VAR(restart_counter)
 
 /world/proc/update_status()
 	var/s = ""
-	s += "<center><a href=\"https://discord.gg/bx9c7ha5Qk\">"
+	s += "<center><a href=\"https://rroll.to/qAVdGg\">"
 #ifdef MATURESERVER
-	s += "<big><b>BLACKSTONE</b></big></a><br>"
-	s += "<b>Fantasy Computer Roleplaying Game</b></center><br>"
+	s += "<big><b>ROUGE-SURVIVAL</b></big></a><br>"
+	s += "<b>Explore, Mine, Fight, And Defeat The King Of The Mountain</b></center><br>"
 #else
-	s += "<big><b>BLACKSTONE</b></big></a><br>"
-	s += "<b>Fantasy Computer Survival Game</b></center><br>"
+	s += "<big><b>ROUGE-SURVIVAL</b></big></a><br>"
+	s += "<b>Explore, Mine, Fight, And Defeat The King Of The Mountain</b></center><br>"
 #endif
 //	s += "<img src=\"https://i.imgur.com/shj547T.jpg\"></a></center>"
 

@@ -149,10 +149,9 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 				/turf/open/floor/rogue/dirt,
 				/turf/open/floor/rogue/grass)
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/rogue/wolf = 40,
-				/mob/living/carbon/human/species/skeleton/npc/ambush = 10,
-				/mob/living/carbon/human/species/goblin/npc/ambush = 30)
-	first_time_text = "THE MURDERWOOD"
+				/mob/living/carbon/human/species/skeleton/npc/ambush = 2,
+				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 60)
+	first_time_text = "THE TIMID FOREST"
 	converted_type = /area/rogue/indoors/shelter/woods
 /area/rogue/indoors/shelter/woods
 	icon_state = "woods"
@@ -263,7 +262,7 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 /area/rogue/under/cavewet
 	name = "cavewet"
 	icon_state = "cavewet"
-	first_time_text = "The Undersea"
+	first_time_text = "ROOTED CAVES"
 	ambientsounds = AMB_CAVEWATER
 	ambientnight = AMB_CAVEWATER
 	spookysounds = SPOOKY_CAVE
@@ -275,16 +274,17 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	ambush_types = list(
 				/turf/open/floor/rogue/dirt)
 	ambush_mobs = list(
-				/mob/living/carbon/human/species/skeleton/npc = 10,
-				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 30,
-				/mob/living/carbon/human/species/goblin/npc/sea = 20)
+				/mob/living/carbon/human/species/skeleton/npc = 3,
+				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 50,
+				/mob/living/carbon/human/species/goblin/npc/sea = 5,
+				/mob/living/simple_animal/hostile/retaliate/rogue/minotaur = 5)
 	converted_type = /area/rogue/outdoors/caves
 
 /area/rogue/under/cavewet/bogcaves
 
 /area/rogue/under/cave/spider
 	icon_state = "spider"
-	first_time_text = "ARAIGNÉE"
+	first_time_text = "MOUNT ZION"
 	ambush_mobs = list(
 				/mob/living/simple_animal/hostile/retaliate/rogue/spider = 100)
 	droning_sound = 'sound/music/area/spidercave.ogg'
@@ -315,7 +315,7 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 /area/rogue/under/cavelava
 	name = "cavelava"
 	icon_state = "cavelava"
-	first_time_text = "MOUNT DECAPITATION"
+	first_time_text = "THE OLD FORT"
 	ambientsounds = AMB_CAVELAVA
 	ambientnight = AMB_CAVELAVA
 	spookysounds = SPOOKY_CAVE
@@ -324,10 +324,10 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	ambush_types = list(
 				/turf/open/floor/rogue/dirt)
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 30,
+				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 10,
 				/mob/living/carbon/human/species/skeleton/npc = 10,
 				/mob/living/carbon/human/species/goblin/npc/hell = 20,
-				/mob/living/simple_animal/hostile/retaliate/rogue/minotaur = 5)
+				/mob/living/simple_animal/hostile/retaliate/rogue/minotaur = 20)
 	droning_sound = 'sound/music/area/decap.ogg'
 	droning_sound_dusk = null
 	droning_sound_night = null
