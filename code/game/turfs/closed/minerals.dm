@@ -611,19 +611,19 @@
 	turf_type = /turf/open/floor/rogue/naturalstone
 	above_floor = /turf/open/floor/rogue/naturalstone
 	baseturfs = list(/turf/open/floor/rogue/naturalstone)
-	mineralSpawnChanceList = list(/turf/closed/mineral/rogue/salt = 5,/turf/closed/mineral/rogue/iron = 15,/turf/closed/mineral/rogue/coal = 25)
+	mineralSpawnChanceList = list(/turf/closed/mineral/rogue/salt = 2,/turf/closed/mineral/rogue/iron = 15,/turf/closed/mineral/rogue/coal = 25)
 	mineralChance = 23
 
 
 /turf/closed/mineral/random/rogue/med
 	icon_state = "minrandmed"
 	mineralChance = 10
-	mineralSpawnChanceList = list(/turf/closed/mineral/rogue/salt = 5,/turf/closed/mineral/rogue/gold = 3,/turf/closed/mineral/rogue/iron = 33,/turf/closed/mineral/rogue/coal = 14, /turf/closed/mineral/rogue/gem = 1)
+	mineralSpawnChanceList = list(/turf/closed/mineral/rogue/salt = 2,/turf/closed/mineral/rogue/gold = 3,/turf/closed/mineral/rogue/iron = 33,/turf/closed/mineral/rogue/coal = 17, /turf/closed/mineral/rogue/gem = 1, /turf/closed/mineral/rogue/silver = 10)
 
 /turf/closed/mineral/random/rogue/high
 	icon_state = "minrandhigh"
 	mineralChance = 33
-	mineralSpawnChanceList = list(/turf/closed/mineral/rogue/salt = 5,/turf/closed/mineral/rogue/gold = 9,/turf/closed/mineral/rogue/iron = 33,/turf/closed/mineral/rogue/coal = 19, /turf/closed/mineral/rogue/gem = 3)
+	mineralSpawnChanceList = list(/turf/closed/mineral/rogue/salt = 2,/turf/closed/mineral/rogue/gold = 9,/turf/closed/mineral/rogue/iron = 33,/turf/closed/mineral/rogue/coal = 19, /turf/closed/mineral/rogue/gem = 4, /turf/closed/mineral/rogue/silver = 15)
 
 
 //begin actual mineral turfs
@@ -692,3 +692,10 @@
 	..()
 	to_chat(user, span_warning("TOO HARD!"))
 	turf_integrity = max_integrity
+
+/turf/closed/mineral/rogue/silver
+	icon_state = "mingold"
+	mineralType = /obj/item/rogueore/silver
+	rockType = /obj/item/natural/rock/silver
+	spreadChance = 16
+	spread = 3

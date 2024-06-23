@@ -149,8 +149,9 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 				/turf/open/floor/rogue/dirt,
 				/turf/open/floor/rogue/grass)
 	ambush_mobs = list(
-				/mob/living/carbon/human/species/skeleton/npc/ambush = 2,
-				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 60)
+				/mob/living/carbon/human/species/skeleton/npc/ambush = 1,
+				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 1,
+				/mob/living/simple_animal/hostile/rogue/haunt = 40)
 	first_time_text = "THE TIMID FOREST"
 	converted_type = /area/rogue/indoors/shelter/woods
 /area/rogue/indoors/shelter/woods
@@ -248,8 +249,8 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	ambush_types = list(
 				/turf/open/floor/rogue/dirt)
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 30,
-				/mob/living/carbon/human/species/goblin/npc/ambush/cave = 20,
+				/mob/living/simple_animal/hostile/rogue/haunt = 30,
+				/mob/living/carbon/human/species/goblin/npc/ambush/cave = 10,
 				/mob/living/carbon/human/species/skeleton/npc/ambush = 10,
 				/mob/living/simple_animal/hostile/retaliate/rogue/minotaur = 5)
 	converted_type = /area/rogue/outdoors/caves
@@ -275,9 +276,10 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 				/turf/open/floor/rogue/dirt)
 	ambush_mobs = list(
 				/mob/living/carbon/human/species/skeleton/npc = 3,
-				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 50,
+				/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 10,
 				/mob/living/carbon/human/species/goblin/npc/sea = 5,
-				/mob/living/simple_animal/hostile/retaliate/rogue/minotaur = 5)
+				/mob/living/simple_animal/hostile/retaliate/rogue/minotaur = 5,
+				/mob/living/simple_animal/hostile/rogue/haunt = 20)
 	converted_type = /area/rogue/outdoors/caves
 
 /area/rogue/under/cavewet/bogcaves

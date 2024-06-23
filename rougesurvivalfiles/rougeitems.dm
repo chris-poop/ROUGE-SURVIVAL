@@ -7,6 +7,61 @@
 	verbage = "...."
 	craftsound = null
 	skillcraft = null
+
+/datum/crafting_recipe/roguetown/structure/merchantvend
+	name = "link To the Merchants Guild"
+	result = /obj/structure/roguemachine/merchantvend
+	reqs = list(/obj/item/grown/log/tree/small = 2,
+				/obj/item/underworld/coin = 1)
+	skillcraft = /datum/skill/craft/crafting
+	verbage_simple = "set up a"
+	verbage = "sets up a"
+	time = 2 SECONDS
+	craftdiff = 0
+	craftsound = null
+	skillcraft = null
+
+/datum/crafting_recipe/roguetown/structure/merchantballoon
+	name = "link To the Balloon Trade-Metropolis"
+	result = /obj/item/roguemachine/merchant
+	reqs = list(/obj/item/underworld/coin = 1,
+				/obj/item/natural/cloth = 1)
+	skillcraft = /datum/skill/craft/crafting
+	verbage_simple = "set up a"
+	verbage = "sets up a"
+	time = 2 SECONDS
+	craftdiff = 0
+	craftsound = null
+	skillcraft = null
+
+/datum/crafting_recipe/roguetown/Toll
+	name = "Create A Toll"
+	result = /obj/item/underworld/coin
+	reqs = list(/obj/item/roguestatue/silver = 2,
+	/obj/item/roguestatue/gold = 1, /obj/item/roguestatue/iron = 1)
+	time = 4 SECONDS
+	verbage = "Take A Hangnail, ripping down, applying the fresh skin to the Combination, Speaking the Sacred words, You"
+	craftsound = null
+	skillcraft = null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 /datum/crafting_recipe/roguetown/turfs/dighole
 	name = "Dig A Hole"
@@ -25,12 +80,4 @@
 
 */
 
-/datum/crafting_recipe/roguetown/merchantvend
-	name = "link To the Merchants Guild"
-	result = /obj/structure/roguemachine/merchantvend
-	reqs = list(/obj/item/grown/log/tree/small = 2,
-				/obj/item/natural/cloth = 1)
-	skillcraft = /datum/skill/craft/crafting
-	verbage_simple = "set up a"	
-	verbage = "sets up a"
-	craftdiff = 0
+

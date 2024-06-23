@@ -2,7 +2,7 @@
 	name = "goblin"
 
 	icon = 'icons/roguetown/mob/monster/goblins.dmi'
-	icon_state = "blank"
+	icon_state = "goblin_hell"
 	race = /datum/species/goblin
 	gender = MALE
 	bodyparts = list(/obj/item/bodypart/chest/goblin, /obj/item/bodypart/head/goblin, /obj/item/bodypart/l_arm/goblin,

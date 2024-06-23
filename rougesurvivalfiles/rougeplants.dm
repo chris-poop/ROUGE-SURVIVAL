@@ -45,7 +45,7 @@
 
 
 /datum/crafting_recipe/roguetown/ironplantseeds
-	name = "Pulverize, To Form Iron"
+	name = "Pulverize, Form Iron"
 	result = /obj/item/seeds/ironplant
 	reqs = list(/obj/item/reagent_containers/food/snacks/grown/apple = 40,
 	/obj/item/natural/chaff/wheat = 40)
@@ -75,3 +75,9 @@
 	craftsound = null
 	skillcraft = null
 
+
+/obj/structure/flora/roguegrass/deadgrass
+	name = "Dead Grass"
+	desc = "Green, soft and Totally Dead."
+	icon = 'icons/roguetown/misc/foliage.dmi'
+	icon_state = "deadgrass"
