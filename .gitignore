@@ -210,6 +210,9 @@ tools/MapAtmosFixer/MapAtmosFixer/bin/*
 /_maps/**/backup/
 /_maps/templates.dm
 
+#private maps
+/privatemaps/map_files/*
+
 #dmdoc default folder
 /dmdoc
 # Ignore custom music and title screens (amend as appropriate)
