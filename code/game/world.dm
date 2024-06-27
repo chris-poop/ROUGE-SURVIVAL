@@ -304,7 +304,7 @@ GLOBAL_VAR(restart_counter)
 
 /world/proc/update_status()
 	var/s = ""
-	s += "<center><a href=\"https://rroll.to/qAVdGg\">"
+	s += "<center><a href=\"https://discord.gg/D57nnyARhr\">"
 #ifdef MATURESERVER
 	s += "<big><b>ROUGE-SURVIVAL</b></big></a><br>"
 	s += "<b>Explore, Mine, Fight, And Defeat The King Of The Mountain</b></center><br>"

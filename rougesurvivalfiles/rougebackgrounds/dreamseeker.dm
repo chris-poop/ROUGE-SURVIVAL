@@ -50,7 +50,6 @@
 		H.change_stat("perception", 5)
 		H.change_stat("constitution", -2)
 		H.change_stat("intelligence", 1)
-		H.mind.AddSpell(new /obj/effect/proc_holder/spell/targeted/conjure_glowshroom)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/targeted/beasttame)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/targeted/soulspeak)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/targeted/churn)

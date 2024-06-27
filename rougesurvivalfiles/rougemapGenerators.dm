@@ -102,7 +102,7 @@
 	modules = list(/datum/mapGeneratorModule/rougecavedirt/rougelava)
 
 /datum/mapGeneratorModule/rougecavedirt/rougelava
-	spawnableTurfs = list(/turf/open/lava=3,/turf/open/floor/rogue/dirt/road=10)
+	spawnableTurfs = list(/turf/open/floor/rogue/underworld/road = 1)
 	spawnableAtoms = list(/obj/item/natural/stone = 19,/obj/structure/roguerock=4,/obj/item/natural/rock = 2, /obj/structure/glowshroom = 4)
 	allowed_areas = list(/area/rogue/under/cavelava)
 	allowed_turfs = list(/turf/open/floor/rogue/dirt/,/turf/open/floor/rogue/volcanic,/turf/open/floor/rogue/naturalstone)
