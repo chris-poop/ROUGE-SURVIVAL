@@ -3388,6 +3388,7 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "privatemaps\blackstone.dm"
 #include "rougesurvivalfiles\rougeitems.dm"
 #include "rougesurvivalfiles\rougemapGenerators.dm"
 #include "rougesurvivalfiles\rougemobs.dm"
